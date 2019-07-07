@@ -64,6 +64,7 @@ $(document).ready(function() {
   cat.petMedium = cat.pet(7);
   cat.petLarge = cat.pet(10);
 
+  //testing pet 'function factory' 
   setTimeout(function(){
     olive.petSmall('Pur!');
     setTimeout(function(){
@@ -73,7 +74,5 @@ $(document).ready(function() {
       }, 5000);
     }, 5000);
   }, 5000);
-  
-  
   
 });
